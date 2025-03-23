@@ -1,0 +1,162 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #F7F8F9;
+}
+
+.home-color {
+  height: 100vh;
+  width: 100vw;
+}
+
+.rubik-medium-16 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.rubik-normal-18 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #1D2226;
+}
+
+.rubik-medium-28 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 1;
+}
+
+.welcome-position {
+  position: absolute;
+  top: 549px;
+  left: 20px;
+  width: 231px;
+  height: 33px;
+}
+
+.button1-position {
+  position: absolute;
+  top: 669px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+}
+
+.info-home-position {
+  position: absolute;
+  top: 592px;
+  left: 20px;
+  width: 232px;
+  height: 48px;
+}
+
+
+
+.button-dark-purple {
+  background: #6C25FF;
+  border-radius: 6px;
+  opacity: 1;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-light-purple {
+  /* UI Properties */
+  border-radius: 6px;
+  background: #6C25FF4B 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.button2-position {
+  position: absolute;
+  top: 725px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+}
+
+.input-border {
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.input-text {
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #919191;
+  opacity: 1;
+  padding-left: 16px;
+}
+
+.input-label-text {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #6C25FF;
+  opacity: 1;
+}
+
+.login-button {
+  margin-top: 14px;
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background: #CBCBCB 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+  font-size: inherit;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+}
+
+.radio-text-14px {
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 1;
+}
+
+.profile-picture {
+  background: url('/src/assets/Ellipse%20114@2x.png') no-repeat center center;
+  background-size: contain;
+  opacity: 1;
+  width: 76px;
+  height: 76px;
+}
+
+.camera-pic {
+  background: url('/src/assets/Group1585.png') no-repeat center center;
+  background-size: contain;
+  opacity: 1;
+  width: 23px;
+  height: 21px;
+}

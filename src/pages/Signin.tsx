@@ -1,4 +1,4 @@
-import InputWithLabel from "../components/inputWithLabel"
+import InputWithLabel from "../components/InputWithLabel"
 import { useNavigate } from "react-router-dom"
 function Signin() {
     const navigate = useNavigate()

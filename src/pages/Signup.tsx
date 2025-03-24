@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom"
 function Signup() {
     const navigate = useNavigate()
     return (
-        <div className='w-full h-full pl-5 pt-10'>
+        <div className="w-screen h-screen flex justify-center bg-[#FFFFFF]">
+        <div className='w-[375px] h-full pl-5 pt-10 bg-[#F7F8F9] relative'>
             <div className="rubik-medium-28 w-[188px] h-[69px]">
                 Create your PopX account
             </div>
@@ -24,6 +25,7 @@ function Signup() {
         <button onClick={()=>{navigate('/profile')}} className="button-dark-purple absolute bottom-8 w-[335px] h-[46px] flex justify-center items-center rubik-medium-16 text-[#FFFFFF]">
            Create Account
         </button>
+        </div>
         </div>
     )
 }

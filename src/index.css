@@ -35,21 +35,11 @@ body {
   line-height: 36px;
   letter-spacing: 0px;
   color: #1D2226;
-  opacity: 1;
-}
-
-.welcome-position {
-  position: absolute;
-  top: 549px;
-  left: 20px;
-  width: 231px;
-  height: 33px;
+  opacity: 1; 
 }
 
 .button1-position {
-  position: absolute;
-  top: 669px;
-  left: 20px;
+  /* position: absolute; */
   width: 335px;
   height: 46px;
 }
@@ -82,9 +72,7 @@ body {
 }
 
 .button2-position {
-  position: absolute;
-  top: 725px;
-  left: 20px;
+  /* position: absolute; */
   width: 335px;
   height: 46px;
 }
